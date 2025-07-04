@@ -4,9 +4,10 @@
 //Versão : 1 basica do programa super trunfonivel novato primeira postagem
 //Disciplina Introdução a programação em c
 //data :aulas eperimentais adiantando conteúdo 04/07/2025
+//obs caracateres sem acentuação de proposito pois ainda nao tive aula sobre isso
 
 #include <stdio.h>
-
+#include <string.h>
 
 int main() {
     // Declaração das variáveis para a Carta 1
@@ -34,10 +35,10 @@ int main() {
     printf("Codigo da Carta (ex: A01): ");
     scanf("%s", codigo1);
     printf("Nome da Cidade: ");
-    scanf(" %s", nomeCidade1);
+    scanf(" %[^\n]", nomeCidade1);
     printf("Populacao: ");
     scanf("%d", &populacao1);
-    printf("Area (em km quadrados): ");
+    printf("Area (em kmquadrado): ");
     scanf("%f", &area1);
     printf("PIB (em bilhoes de reais): ");
     scanf("%f", &pib1);
@@ -51,10 +52,10 @@ int main() {
     printf("Codigo da Carta (ex: B02): ");
     scanf("%s", codigo2);
     printf("Nome da Cidade: ");
-    scanf(" %s", nomeCidade2);
+    scanf(" %[^\n]", nomeCidade2);
     printf("Populacao: ");
     scanf("%d", &populacao2);
-    printf("Area (em km quadrados): ");
+    printf("Area (em km quadrado: ");
     scanf("%f", &area2);
     printf("PIB (em bilhoes de reais): ");
     scanf("%f", &pib2);
@@ -67,7 +68,7 @@ int main() {
     printf("Codigo: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
     printf("Populacao: %d\n", populacao1);
-    printf("Area: %.2f em km quadrados\n", area1);
+    printf("Area: %.2f km²\n", area1);
     printf("PIB: %.2f bilhoes de reais\n", pib1);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos1);
 
@@ -77,9 +78,8 @@ int main() {
     printf("Codigo: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
     printf("Populacao: %d\n", populacao2);
-    printf("Area: %.2f em km quadrados\n", area2);
+    printf("Area: %.2f km²\n", area2);
     printf("PIB: %.2f bilhoes de reais\n", pib2);
     printf("Numero de Pontos Turisticos: %d\n", pontosTuristicos2);
 
     return 0;
-}
