@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+
 
 int main() {
     // Declaração das variáveis para a Carta 1
