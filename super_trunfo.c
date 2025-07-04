@@ -1,3 +1,10 @@
+//autor : João Paulo Guimarães Leite
+//email : neo4jpgl@gmail.com
+//nome do programa : super trunfo versão inicial
+//Versão : 1 basica do programa super trunfonivel novato primeira postagem
+//Disciplina Introdução a programação em c
+//data :aulas eperimentais adiantando conteúdo 04/07/2025
+
 #include <stdio.h>
 
 
